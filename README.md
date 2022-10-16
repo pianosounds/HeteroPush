@@ -11,7 +11,7 @@ We have get the experiments on 2 dataset: ***/experiments/***.
 
 ***/experiments/exp_dataset/pred_results*** including inference results and ***/experiments/exp_dataset/results*** including init filtering policy of heterogeneous filters.
 
-To train a new scheduler, you just need to set up the parameters, train&test options and configs set up the parameters, train&test options and configs and run:
+To train a new scheduler, you just need to set up the parameters, train&test options and configs, run:
 
 ```
   python run_schedule.py
@@ -20,7 +20,7 @@ Then, the scheduler results and final filtering policy will be predicted and sav
 
 ## DQN based
 
-We alse provide the method to filtering frames directly with DQN, similar to scheduler, you just need set up the parameters, train&test options and configs set up the parameters, train&test options and configs and run:
+We alse provide the method to filtering frames directly with DQN, similar to scheduler, you just need set up the parameters, train&test options and configs and run:
 
 ```
   python run_dqn_forward_profile.py
